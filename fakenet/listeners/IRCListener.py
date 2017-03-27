@@ -9,9 +9,6 @@ import SocketServer
 import ssl
 import socket
 
-RPL_WELCOME = '001'
-SRV_WELCOME = "Welcome to FakeNet."
-
 class IRCListener():
 
     def __init__(self, config, name = 'IRCListener', logging_level = logging.INFO):
